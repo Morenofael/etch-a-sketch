@@ -1,0 +1,13 @@
+body{
+    margin:0px;
+}
+    main .rowDiv{
+        height: 6.25vh;
+        display: flex;
+    }
+        main .rowDiv .squareDiv{
+            width: 6.25vw;
+        }
+        main .rowDiv .squareDiv:hover{
+            background-color: black;
+        }

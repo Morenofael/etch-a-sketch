@@ -1,6 +1,11 @@
+let main = document.querySelector('main')
 for(i=0;i<16;i++){
-    let main = document.querySelector('main')
     let rowDiv = document.createElement('div');
-    rowDiv.style.height = '6.25vh';
+    rowDiv.classList = 'rowDiv';
+    for(j=0;j<16;j++){
+        let squareDiv = document.createElement('div');
+        squareDiv.classList = 'squareDiv';
+        rowDiv.appendChild(squareDiv);
+    }
     main.appendChild(rowDiv);
 }
