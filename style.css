@@ -1,10 +1,19 @@
 body{
     margin:0px;
 }
-    main .rowDiv{
-        height: 6.25vh;
+    header{
         display: flex;
+        justify-content: center;
     }
-        main .rowDiv .squareDiv{
-            width: 6.25vw;
+    main{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+        main .rowDiv{   
+            flex: 1;
+            display: flex;
         }
+            main .rowDiv .squareDiv{
+                flex: 1;
+            }

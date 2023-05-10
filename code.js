@@ -1,3 +1,6 @@
+function generateGrid(){
+    alert("Isso vai fazer alguma coisa um dia");
+}
 let main = document.querySelector('main')
 for(i=0;i<16;i++){
     let rowDiv = document.createElement('div');
