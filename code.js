@@ -6,6 +6,8 @@ function removeChildNodes(parent){
 function generateGrid(width,height){
     let main = document.querySelector('main');
     removeChildNodes(main);
+    if(width>100) width = 100;
+    if(height>100) height = 100;
     for(i=0;i<height;i++){
         let rowDiv = document.createElement('div');
         rowDiv.classList = 'rowDiv';
