@@ -10,7 +10,8 @@
 </head>
 <body>
     <header>
-        <button onclick="generateGrid(prompt('Selecione a largura'),prompt('Selecione a altura'))">Gerar nova grade</button>
+        <button onclick="setAttributes();generateGrid(width,height)">Gerar nova grade</button>
+        <button onclick="generateGrid(width,height)">Apagar</button>
     </header>
     <main>
 

@@ -3,6 +3,10 @@ function removeChildNodes(parent){
         parent.removeChild(parent.firstChild);
     }
 }
+function setAttributes(){
+    width = prompt("Selecione a largura");
+    height = prompt("Selecione a altura");
+}
 function generateGrid(width,height){
     let main = document.querySelector('main');
     removeChildNodes(main);
@@ -20,4 +24,6 @@ function generateGrid(width,height){
         main.appendChild(rowDiv);
     }
 }
-generateGrid(16,16);
+let width = 16;
+let height = 16;
+generateGrid(width,height);
