@@ -8,6 +8,3 @@ body{
         main .rowDiv .squareDiv{
             width: 6.25vw;
         }
-        main .rowDiv .squareDiv:hover{
-            background-color: black;
-        }
